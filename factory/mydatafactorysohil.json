@@ -1,0 +1,9 @@
+{
+	"name": "mydatafactorysohil",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "fef71fbe-9d92-4880-8b07-d9c88050b999",
+		"tenantId": "bce3e539-8534-408d-8e30-a00863527026"
+	}
+}
