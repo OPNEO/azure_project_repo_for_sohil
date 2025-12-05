@@ -69,7 +69,12 @@
 						"referenceName": "parquet_sink",
 						"type": "DatasetReference",
 						"parameters": {
-							"container": "bronze"
+							"container": "bronze",
+							"folder": "User",
+							"file": {
+								"value": "@concat(pipeline().parameters.table,'_',variables('current'))",
+								"type": "Expression"
+							}
 						}
 					}
 				]
